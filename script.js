@@ -1,4 +1,4 @@
-const players = ["John", "Bob", "Alice", "Dhoni"];
+const players = ["John", "Bob", "Alice", "Poppy"];
 
 const person = {
   name: "John Doe",
@@ -6,13 +6,9 @@ const person = {
 };
 
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
-let team1=["John", "Bob", "Alice", "Poppy"]
-let team = ["John", "Bob", "Alice", "Poppy"];
-let cap1 = {
-	 name: "John Doe",
-  age: 80,
-};
-
+const team = players;
+const team1 = [...players];
+const cap1 = Object.assign({}, person);
 
 
 window.players = players;
